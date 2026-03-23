@@ -1,0 +1,96 @@
+body{
+    margin: 5px;
+    padding-top: 78px;
+}
+/*header styling*/
+header{
+    position: fixed;
+    top:5px;
+    right:5px;
+    left:5px;
+    display: flex;
+    justify-content: space-between;    
+    align-items: center;
+    flex-direction: row;
+    background-color: red;
+    border-radius: 100px;
+    padding: 0.5rem 1.5rem;
+    z-index: 10000;
+    
+    
+}  
+
+.name{
+    padding: 0;
+    margin:10px;
+    
+}
+.name h1{
+    text-align: center;
+    margin: 0 0 0 1rem;
+    
+    
+}
+.navbar{
+    margin-right: 20px;
+    
+    
+}
+nav{
+    margin: 0;
+    
+}
+nav ul{
+    display: flex;
+    
+}
+ul li{
+    padding:0 1rem;
+    list-style: none;
+    
+}
+.nav-link a{
+    display: inline-block;
+    padding:0 1.8px;
+    margin: 0;
+    text-decoration: none;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 1);
+    transition: all 0.3s ease;
+    border-radius: 50px;
+}
+.nav-link a:hover{
+    padding: 0 20px;
+    border-radius: 50px;
+    background-color: white;
+    color: blue;
+    transform:scale(1.2);
+    margin: 0 5px;
+}
+
+
+/*home */
+.home{
+    
+    background: url('backgroung.png')  no-repeat fixed;
+    background-size: cover;
+    height:100vh;
+    position: relative;
+}
+.home-text{
+    position: absolute;
+    align-items: center;
+    top: 40%;
+    right: 40%;
+}
+.home-text h3{
+    color: black;
+    font-size: 3rem;
+}
+.home-text h3:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: blue;
+    padding: 20px 50px;
+    transition: scale(1.5);
+    border-radius: 100px;
+}
